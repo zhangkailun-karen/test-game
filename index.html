@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>飞机大战</title>
+    <style type="text/css">
+        *{margin: 0;padding: 0;}
+        canvas{
+            border: 1px solid #000;
+        }
+        div{
+            width: 512px;
+            height:600px;
+            margin:0px auto;
+        }
+    </style>
+</head>
+<body>
+    <audio src="music/zidan.mp3" id="she"></audio>
+    <audio src="music/bg.mp3" id="bg"></audio>
+    <audio src="music/baozha.mp3" id="baozha"></audio>
+    <!-- <audio src="music/score.ogg" id="score"></audio> -->
+    <div>
+        <canvas width="512" height="600" tabIndex="1"></canvas>
+    </div>
+
+
+</body>
+</html>
+<script type="text/javascript" src="js/lib/underscore-min.js"></script>
+    <script type="text/javascript" src="js/Game.js"></script>
+    <script type="text/javascript" src="js/background.js"></script>
+    <script type="text/javascript" src="js/Enemy.js"></script>
+    <script type="text/javascript" src="js/zidan.js"></script>
+    <script type="text/javascript" src="js/jineng.js"></script>
+    <script type="text/javascript" src="js/Plane.js"></script>
+    <script type="text/javascript" src="js/sceneManager.js"></script>
+    <script type="text/javascript">
+         var game = new Game();
+    </script>
