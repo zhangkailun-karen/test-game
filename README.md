@@ -1,7 +1,1 @@
-# test-game
-# test-game
-# test-game
-# test-game
-# test-game
-# game
-# test-game
+这是一个用面向对象编程的飞机游戏
