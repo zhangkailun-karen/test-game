@@ -31,8 +31,13 @@ Skills.prototype.update= function(){
                 this.goDie();
             }
             if(game.index == 1 || game.index == 2){
+                if(!game.lock){
+                    return
+                }
+                game.lock = false
                 setTimeout(function(){
                     game.index = 0
+                    game.lock = true;
                 },5000)
             }
     }

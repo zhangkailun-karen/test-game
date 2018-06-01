@@ -5,7 +5,8 @@ function Game(){
     this.Skills =[]
     this.score = 0; //分数
     this.LIFE = 1;
-    this.index = 0
+    this.index = 0;
+    this.lock = true;
 
 }
 Game.prototype.init = function(){
